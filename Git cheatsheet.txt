@@ -1,0 +1,11 @@
+GIT USAGE:
+git config --global user.name "Code Like Rohan"
+git config --global user.email "rohanbaranwal2709@gmail.com"
+git init
+git add .
+git commit -m "Initial Commit"
+git status #Just check purpose
+git remote add origin, then add the path of repo
+ssh-keygen -t rsa -b 4096 -C "rohanbaranwal2709@gmail.com"
+cat /c/Users/rohan/.ssh/id_rsa.pub
+git push origin master
