@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input id="my-text" type="text" placeholder="Enter City Name" spellcheck="false">
+            <button><img src="images/search.png"></button>
+        </div>
+        <div class="error">
+            <p>Invalid city name</p>
+        </div>
+        <div class="weather">
+            <img src="images/rain.png" class="weather-icon">
+            <div class="climate">
+                <h1 class="temp">22°C</h1>
+
+                <div class="max-min">
+                    <div class="max-temp">
+                        <div class="circle">
+                            <i class="fa-solid fa-temperature-arrow-up"></i>
+                            <p class="high">40°C</p>
+                        </div>
+                        <p>Max Tempt.</p>
+                    </div>
+                    <div class="min-temp">
+                        <div class="circle">
+                            <i class="fa-solid fa-temperature-arrow-down"></i>
+                            <p class="low">5°C</p>
+                        </div>
+                        <p>Min Tempt.</p>
+                    </div>
+                </div>
+                
+            </div>
+                
+
+            <h2 class="city">New York</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="images/humidity.png">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/wind.png">
+                    <div>
+                        <p class="wind">15 km/p</p>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/7ae12c257f.js" crossorigin="anonymous"></script>
+</body>
+</html>
